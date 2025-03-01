@@ -9,7 +9,7 @@ model_name = "facebook/bart-large-cnn"
 summarizer = pipeline("summarization", model=model_name)
 
 class TextInput(BaseModel):
-    text: str
+    text: str 
 
 @app.get("/")
 def read_root():
