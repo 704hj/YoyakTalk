@@ -12,7 +12,7 @@ class TextInput(BaseModel):
     text: str 
 
 @app.get("/")
-def read_root():
+def read_root(): 
     return {"message": "연결 성공!!! Python 3.11 & FastAPI!"}
 
 @app.post("/summarize")
