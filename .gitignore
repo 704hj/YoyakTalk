@@ -11,3 +11,6 @@ dist/
 build/
 
 venv/
+repo-clean/ 
+objects.txt 
+sizes.txt 
