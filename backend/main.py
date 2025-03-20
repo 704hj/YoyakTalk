@@ -4,7 +4,7 @@ from transformers import pipeline
 
 app = FastAPI()
 
-# Summarizer (예: 영어 BART)
+# Summarizer
 model_name = "facebook/bart-large-cnn"
 summarizer = pipeline("summarization", model=model_name)
 
