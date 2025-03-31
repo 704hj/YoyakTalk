@@ -20,7 +20,7 @@ def summarize_text(data: TextInput):
     summary = summarizer(
         data.text,
         max_length=50,
-        min_length=40,
+        min_length=60,
         do_sample=False
     )
     return {"summary": summary[0]["summary_text"]}
