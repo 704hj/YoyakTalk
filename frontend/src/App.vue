@@ -128,7 +128,7 @@ const toggleSpeech = () => {
 
 const copySummary = () => {
   navigator.clipboard.writeText(summary.value);
-  alert("요약이 복사되었습니다!");
+  alert("요약이 복사되었습니다");
 };
 </script>
 
