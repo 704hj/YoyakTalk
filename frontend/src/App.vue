@@ -77,7 +77,7 @@
 
       <div class="mt-4 flex justify-end gap-2">
         <button @click="toggleSpeech" class="p-2 bg-gray-200 rounded-md hover:bg-gray-300 transition">
-          🔊 {{ speaking ? "음성 정지" : "음성 듣기" }}
+          🔊{{ speaking ? "음성 정지" : "음성 듣기" }}
         </button>
         <button @click="copySummary" class="p-2 bg-gray-200 rounded-md hover:bg-gray-300 transition">
           📋 복사하기
