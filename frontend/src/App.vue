@@ -33,7 +33,7 @@
         placeholder="요약할 블로그 URL을 입력하세요."
       />
 
-      <!-- 텍스트 입력 -->
+      <!-- 텍스트 입력 창 -->
       <textarea
         v-if="inputMode === 'text'"
         v-model="inputText"
